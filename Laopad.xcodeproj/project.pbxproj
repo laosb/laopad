@@ -13,6 +13,8 @@
 		2AA9F0672030266A00EA2A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA9F0652030266A00EA2A9D /* Main.storyboard */; };
 		2AA9F0732030266A00EA2A9D /* LaopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F0722030266A00EA2A9D /* LaopadTests.swift */; };
 		2AA9F07E2030266A00EA2A9D /* LaopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F07D2030266A00EA2A9D /* LaopadUITests.swift */; };
+		2AA9F08E203041E200EA2A9D /* TrackpadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F08D203041E200EA2A9D /* TrackpadView.swift */; };
+		2AA9F0902030674000EA2A9D /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F08F2030674000EA2A9D /* Window.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		2AA9F0792030266A00EA2A9D /* LaopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA9F07D2030266A00EA2A9D /* LaopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaopadUITests.swift; sourceTree = "<group>"; };
 		2AA9F07F2030266A00EA2A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA9F08D203041E200EA2A9D /* TrackpadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadView.swift; sourceTree = "<group>"; };
+		2AA9F08F2030674000EA2A9D /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +102,12 @@
 			children = (
 				2AA9F05F2030266A00EA2A9D /* AppDelegate.swift */,
 				2AA9F0612030266A00EA2A9D /* ViewController.swift */,
+				2AA9F08D203041E200EA2A9D /* TrackpadView.swift */,
 				2AA9F0632030266A00EA2A9D /* Assets.xcassets */,
 				2AA9F0652030266A00EA2A9D /* Main.storyboard */,
 				2AA9F0682030266A00EA2A9D /* Info.plist */,
 				2AA9F0692030266A00EA2A9D /* Laopad.entitlements */,
+				2AA9F08F2030674000EA2A9D /* Window.swift */,
 			);
 			path = Laopad;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AA9F0622030266A00EA2A9D /* ViewController.swift in Sources */,
+				2AA9F08E203041E200EA2A9D /* TrackpadView.swift in Sources */,
 				2AA9F0602030266A00EA2A9D /* AppDelegate.swift in Sources */,
+				2AA9F0902030674000EA2A9D /* Window.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
