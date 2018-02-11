@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AA9F0602030266A00EA2A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F05F2030266A00EA2A9D /* AppDelegate.swift */; };
+		2AA9F0622030266A00EA2A9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F0612030266A00EA2A9D /* ViewController.swift */; };
+		2AA9F0642030266A00EA2A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA9F0632030266A00EA2A9D /* Assets.xcassets */; };
+		2AA9F0672030266A00EA2A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA9F0652030266A00EA2A9D /* Main.storyboard */; };
+		2AA9F0732030266A00EA2A9D /* LaopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F0722030266A00EA2A9D /* LaopadTests.swift */; };
+		2AA9F07E2030266A00EA2A9D /* LaopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F07D2030266A00EA2A9D /* LaopadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AA9F06F2030266A00EA2A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AA9F0542030266900EA2A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AA9F05B2030266900EA2A9D;
+			remoteInfo = Laopad;
+		};
+		2AA9F07A2030266A00EA2A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AA9F0542030266900EA2A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AA9F05B2030266900EA2A9D;
+			remoteInfo = Laopad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AA9F05C2030266900EA2A9D /* Laopad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laopad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA9F05F2030266A00EA2A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AA9F0612030266A00EA2A9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AA9F0632030266A00EA2A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AA9F0662030266A00EA2A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AA9F0682030266A00EA2A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA9F0692030266A00EA2A9D /* Laopad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laopad.entitlements; sourceTree = "<group>"; };
+		2AA9F06E2030266A00EA2A9D /* LaopadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaopadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA9F0722030266A00EA2A9D /* LaopadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaopadTests.swift; sourceTree = "<group>"; };
+		2AA9F0742030266A00EA2A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA9F0792030266A00EA2A9D /* LaopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA9F07D2030266A00EA2A9D /* LaopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaopadUITests.swift; sourceTree = "<group>"; };
+		2AA9F07F2030266A00EA2A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AA9F0592030266900EA2A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA9F06B2030266A00EA2A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA9F0762030266A00EA2A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA9F0532030266900EA2A9D = {
+			isa = PBXGroup;
+			children = (
+				2AA9F05E2030266A00EA2A9D /* Laopad */,
+				2AA9F0712030266A00EA2A9D /* LaopadTests */,
+				2AA9F07C2030266A00EA2A9D /* LaopadUITests */,
+				2AA9F05D2030266900EA2A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AA9F05D2030266900EA2A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9F05C2030266900EA2A9D /* Laopad.app */,
+				2AA9F06E2030266A00EA2A9D /* LaopadTests.xctest */,
+				2AA9F0792030266A00EA2A9D /* LaopadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AA9F05E2030266A00EA2A9D /* Laopad */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9F05F2030266A00EA2A9D /* AppDelegate.swift */,
+				2AA9F0612030266A00EA2A9D /* ViewController.swift */,
+				2AA9F0632030266A00EA2A9D /* Assets.xcassets */,
+				2AA9F0652030266A00EA2A9D /* Main.storyboard */,
+				2AA9F0682030266A00EA2A9D /* Info.plist */,
+				2AA9F0692030266A00EA2A9D /* Laopad.entitlements */,
+			);
+			path = Laopad;
+			sourceTree = "<group>";
+		};
+		2AA9F0712030266A00EA2A9D /* LaopadTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9F0722030266A00EA2A9D /* LaopadTests.swift */,
+				2AA9F0742030266A00EA2A9D /* Info.plist */,
+			);
+			path = LaopadTests;
+			sourceTree = "<group>";
+		};
+		2AA9F07C2030266A00EA2A9D /* LaopadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9F07D2030266A00EA2A9D /* LaopadUITests.swift */,
+				2AA9F07F2030266A00EA2A9D /* Info.plist */,
+			);
+			path = LaopadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AA9F05B2030266900EA2A9D /* Laopad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA9F0822030266A00EA2A9D /* Build configuration list for PBXNativeTarget "Laopad" */;
+			buildPhases = (
+				2AA9F0582030266900EA2A9D /* Sources */,
+				2AA9F0592030266900EA2A9D /* Frameworks */,
+				2AA9F05A2030266900EA2A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laopad;
+			productName = Laopad;
+			productReference = 2AA9F05C2030266900EA2A9D /* Laopad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AA9F06D2030266A00EA2A9D /* LaopadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA9F0852030266A00EA2A9D /* Build configuration list for PBXNativeTarget "LaopadTests" */;
+			buildPhases = (
+				2AA9F06A2030266A00EA2A9D /* Sources */,
+				2AA9F06B2030266A00EA2A9D /* Frameworks */,
+				2AA9F06C2030266A00EA2A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AA9F0702030266A00EA2A9D /* PBXTargetDependency */,
+			);
+			name = LaopadTests;
+			productName = LaopadTests;
+			productReference = 2AA9F06E2030266A00EA2A9D /* LaopadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AA9F0782030266A00EA2A9D /* LaopadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA9F0882030266A00EA2A9D /* Build configuration list for PBXNativeTarget "LaopadUITests" */;
+			buildPhases = (
+				2AA9F0752030266A00EA2A9D /* Sources */,
+				2AA9F0762030266A00EA2A9D /* Frameworks */,
+				2AA9F0772030266A00EA2A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AA9F07B2030266A00EA2A9D /* PBXTargetDependency */,
+			);
+			name = LaopadUITests;
+			productName = LaopadUITests;
+			productReference = 2AA9F0792030266A00EA2A9D /* LaopadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AA9F0542030266900EA2A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Wexpo Lyu";
+				TargetAttributes = {
+					2AA9F05B2030266900EA2A9D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2AA9F06D2030266A00EA2A9D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AA9F05B2030266900EA2A9D;
+					};
+					2AA9F0782030266A00EA2A9D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AA9F05B2030266900EA2A9D;
+					};
+				};
+			};
+			buildConfigurationList = 2AA9F0572030266900EA2A9D /* Build configuration list for PBXProject "Laopad" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AA9F0532030266900EA2A9D;
+			productRefGroup = 2AA9F05D2030266900EA2A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AA9F05B2030266900EA2A9D /* Laopad */,
+				2AA9F06D2030266A00EA2A9D /* LaopadTests */,
+				2AA9F0782030266A00EA2A9D /* LaopadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AA9F05A2030266900EA2A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA9F0642030266A00EA2A9D /* Assets.xcassets in Resources */,
+				2AA9F0672030266A00EA2A9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA9F06C2030266A00EA2A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA9F0772030266A00EA2A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AA9F0582030266900EA2A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA9F0622030266A00EA2A9D /* ViewController.swift in Sources */,
+				2AA9F0602030266A00EA2A9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA9F06A2030266A00EA2A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA9F0732030266A00EA2A9D /* LaopadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA9F0752030266A00EA2A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA9F07E2030266A00EA2A9D /* LaopadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AA9F0702030266A00EA2A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AA9F05B2030266900EA2A9D /* Laopad */;
+			targetProxy = 2AA9F06F2030266A00EA2A9D /* PBXContainerItemProxy */;
+		};
+		2AA9F07B2030266A00EA2A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AA9F05B2030266900EA2A9D /* Laopad */;
+			targetProxy = 2AA9F07A2030266A00EA2A9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AA9F0652030266A00EA2A9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA9F0662030266A00EA2A9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AA9F0802030266A00EA2A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AA9F0812030266A00EA2A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2AA9F0832030266A00EA2A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Laopad/Laopad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CA6TZ35K4;
+				INFOPLIST_FILE = Laopad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvdapp.Laopad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2AA9F0842030266A00EA2A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Laopad/Laopad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CA6TZ35K4;
+				INFOPLIST_FILE = Laopad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvdapp.Laopad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		2AA9F0862030266A00EA2A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CA6TZ35K4;
+				INFOPLIST_FILE = LaopadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvdapp.LaopadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laopad.app/Contents/MacOS/Laopad";
+			};
+			name = Debug;
+		};
+		2AA9F0872030266A00EA2A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CA6TZ35K4;
+				INFOPLIST_FILE = LaopadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvdapp.LaopadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laopad.app/Contents/MacOS/Laopad";
+			};
+			name = Release;
+		};
+		2AA9F0892030266A00EA2A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CA6TZ35K4;
+				INFOPLIST_FILE = LaopadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvdapp.LaopadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Laopad;
+			};
+			name = Debug;
+		};
+		2AA9F08A2030266A00EA2A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3CA6TZ35K4;
+				INFOPLIST_FILE = LaopadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvdapp.LaopadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Laopad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AA9F0572030266900EA2A9D /* Build configuration list for PBXProject "Laopad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA9F0802030266A00EA2A9D /* Debug */,
+				2AA9F0812030266A00EA2A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA9F0822030266A00EA2A9D /* Build configuration list for PBXNativeTarget "Laopad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA9F0832030266A00EA2A9D /* Debug */,
+				2AA9F0842030266A00EA2A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA9F0852030266A00EA2A9D /* Build configuration list for PBXNativeTarget "LaopadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA9F0862030266A00EA2A9D /* Debug */,
+				2AA9F0872030266A00EA2A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA9F0882030266A00EA2A9D /* Build configuration list for PBXNativeTarget "LaopadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA9F0892030266A00EA2A9D /* Debug */,
+				2AA9F08A2030266A00EA2A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AA9F0542030266900EA2A9D /* Project object */;
+}
